@@ -1,0 +1,85 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Balkan x hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local MainTab = Window:MakeTab({
+	Name = "Home🏠",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = MainTab:AddSection({
+	Name = "Scripts"
+})
+
+MainTab:AddButton({
+	Name = "Pls donate🔥",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "🔥Big Paintball🔫",
+	Callback = function()
+loadstring(game:HttpGet('https://itots.tk/zaphub/ZapHubFreeVersion'))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Prison life👮‍♂️",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/MAIN'))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "🗡mm2🔫",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pa1nx/RRCreations/main/MurdererMystery2'))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Da hood 🏀",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zinzs/luascripting/main/canyoutellitsadahoodscriptornot.lua"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Country Jail RolePlay👮‍♂️🔫",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/Countyjail/main/Source'))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Jailbreak🔥",
+	Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Jailbreak-Vynixius-1175"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "☠️Blox fruits🏴‍☠️",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "bedwars🛌",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Blade ball🗡",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/frankblox/rbxscripts/main/0bladeball"))()
+  	end    
+})
+
+OrionLib:Init()
